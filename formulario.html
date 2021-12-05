@@ -1,0 +1,102 @@
+<html>
+
+    <head>
+    	<meta charset="utf-8">
+    	<link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+    <title >  CUENTA
+    </title>
+    <header ><h1>MARISCOS EL CAMPEÓN</h1>
+                <h3>
+                 <a class="inicio" href="index.mariscos.html">INICIO</a></h3>
+                 <ul>
+             <a  class="colorTexto" href="sucursales.html">Sucursales</a> 
+                <a class="colorTexto"  href="historia.html">Historia</a>
+                <a class="colorTexto" href="cuenta.html">Cuenta</a>
+                 <a class="colorTexto" href="menu.html">Menú Amplio</a>
+                
+                
+</ul>
+    		</header>
+
+	<body  style="background:#063240;">
+	<hr size=1 noshade="noshade">
+	<h1>CUENTA</h1>
+	<hr size=1 noshade="noshade">
+	<form action="" name="formulario" method="get">
+		<input type="text" name="nombre" id="nombre" maxlength="30" placeholder="NOMBRE">
+		<br>
+
+		<input type="radio" name="sexo" id="hombre" value="Hombre"> Masculino
+		<input type="radio" name="sexo" id="mujer" value="Mujer"> Femenino
+		<br>
+
+		<input type="checkbox" name="terminos" id="terminos"> Terminos y condiciones
+		<br>
+
+		<input type="submit" name="btn" id="btn" value="Enviar">
+	</form>
+		<script type="text/javascript">
+			(function(){
+				var formulario = document.getElementsByName('formulario')[0],
+				elementos = formulario.elements,
+				boton = document.getElementById('btn');
+
+				var validarNombre = function(e){
+					if(formulario.nombre.value == 0){
+					   alert("Completa el campo nombre");
+					   e.preventDefault();
+					}
+				};
+
+				var validarRadio = function(e){
+					if(formulario.sexo[0].checked == true || formulario.sexo[1].checked == true){
+					}else{
+						alert("completa el campo sexo");
+						e.preventDefault();
+					}
+				};
+
+				var validarCheckbox = function(e){
+					if(formulario.terminos.checked == false){
+						alert("Acepta los terminos y condiciones");
+						e.preventDefault();
+					}
+				};
+
+				var validar = function(e){
+					validarNombre(e);
+					validarRadio(e);
+					validarCheckbox(e);
+				};
+
+				formulario.addEventListener("submit",validar);
+
+			}())
+
+		</script>
+	<div class="separador">
+    			
+    		</div>
+    
+
+    <section class="sectionpriv">
+ <footer>
+    <nav class="navegacionfooter">
+                            <h3>
+                        <ul>
+                            <li><a href="preguntas_frecuentes.html">Preguntas Frecuentes</a></li>
+                           
+                            <li><a href="aviso_de_privacidad.html">Aviso de privacidad</a></li>
+                        </ul>
+                        <p>Las marcas de Mariscos El Campeón son propiedad de MariscosElCampeón S.A de C.V
+                          <br>
+                            Autor del sitio: K. Aguirre Rangel / S. Esqueda García</p>
+</footer>
+    		</div>
+    		</font>
+    </body>
+    
+
+
+</html>

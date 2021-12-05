@@ -1,0 +1,159 @@
+*{
+	padding: 0px;
+margin: 0px;
+}
+
+#contenedorGeneral{
+padding: 10px;
+border: 10px solid black;
+background: #063240;
+
+}
+
+#contenedor{
+	padding: 10px;
+border: 10px solid black;
+background: #063240;
+}
+#bg{
+	margin: auto;
+	background-color: cadetblue;
+	
+}
+.colorTexto{
+	color: whitesmoke;
+	background: black;
+}
+.inicio{
+text-align: left;
+size: 20px;
+color: black;
+
+}
+
+body{
+
+padding: 10px;
+margin: 10px;
+background: #FFFFFF;
+
+}
+footer{
+	border: 10px solid goldenrod;
+	text-align: center;
+	background: #063240;
+}
+footer:hover{
+
+	background: darkgreen;
+	color: whitesmoke;
+	font-size: 29px;
+
+}
+header{
+	border: 10px whitesmoke;
+	background: orange;
+	text-align: center;
+}
+header:hover{
+	background: darkgreen;
+	color: whitesmoke;
+	font-size: 30px;
+}
+.barraNavegacion{
+	
+    border: 10px;
+    color: #FFB133;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+}
+nav ul li{
+   float: left;
+   margin: 10px;
+   list-style: none;
+   line-height: 40px;
+   font-size: 25px;
+}
+li:hover{
+
+	border: 5px blanchedalmond;
+	color: black;
+	background: floralwhite;
+}
+.section{
+	float: left;
+	border: 6px solid black;
+	padding: 10px;
+	margin: 10px;
+	width: 65%;
+	min-height: 420px;
+}
+.aside{
+	float: left;
+	border: 10px solid black;
+	padding: 10px;
+	margin: 10px;
+	width: 25%;
+	min-height:420px ;
+}
+
+.separador{
+	clear: both;
+}
+
+//FUNCIONES PARA PAGINA DE AVISO DE PRIVACIDAD 
+.navegacionfooter{
+	border: 10px;
+    color: black;
+    margin: 15px;
+    padding: 10px;
+    height: 10px;
+}
+.rellenopriv{
+	padding: 10px;
+   margin: 10px;
+   background: #063240;
+}
+.sectionpriv{
+	float: left;
+	border: 6px solid black;
+	padding: 10px;
+	margin: 10px;
+	width: 55%;
+	min-height: 100px;
+}
+
+.nomPriv{
+	border: 10px whitesmoke;
+	background: black;
+	text-align: center;
+}
+
+.parrafoindex{
+	border: 10px whitesmoke;
+	background: black;
+	text-align: center;
+}
+.marqui{
+	text-align: center;
+	text-decoration: blink;
+	text-decoration-color: orangered;
+}
+.im{
+	width: 250px;
+	height: 250px;
+
+}
+.ima{
+	width: 750;
+	height: 750;
+}
+.cuentacol{
+	text-align: left;
+size: 20px;
+color: whitesmoke;
+}
+
+//FUNCIONES DE PAGINA DE PREGUNTAS preguntas_frecuentes
+
